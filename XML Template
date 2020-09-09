@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><!DOCTYPE packages [
+<!ELEMENT packages (package*)>
+	<!ELEMENT package (packageName, description, cost, nights, popularity, accommodationOptions+, highlights+, couponCode?, reviews*, images+, externalUrl, contactDetails?)>
+		<!ELEMENT packageName (#PCDATA)>
+		<!ELEMENT description (#PCDATA)>
+		<!ELEMENT cost (#PCDATA)>
+		<!ELEMENT nights (#PCDATA)>
+		<!ELEMENT popularity (#PCDATA)>
+		<!ELEMENT accommodationOptions (location, additionalCost)>
+			<!ELEMENT location (#PCDATA)>
+			<!ELEMENT additionalCost (#PCDATA)>
+		<!ELEMENT highlights (#PCDATA)>
+		<!ELEMENT couponCode (#PCDATA)>
+		<!ELEMENT reviews (#PCDATA)>
+		<!ELEMENT images (#PCDATA)>
+		<!ELEMENT externalUrl (#PCDATA)>
+		<!ELEMENT contactDetails (contactName, contactNumber, contactEmail)>
+			<!ELEMENT contactName (#PCDATA)>
+			<!ELEMENT contactNumber (#PCDATA)>
+			<!ELEMENT contactEmail (#PCDATA)>
+]>
+
+<packages>
+	<package>
+		<packageName></packageName>
+		<description></description>
+		<cost></cost>
+		<nights></nights>
+		<popularity></popularity>
+		<accommodationOptions>
+			<location></location>
+			<additionalCost></additionalCost>
+		</accommodationOptions>
+		<highlights></highlights>
+		<couponCode></couponCode>
+		<reviews></reviews>
+		<images></images>
+		<externalUrl></externalUrl>
+		<contactDetails>
+			<contactName></contactName>
+			<contactNumber></contactNumber>
+			<contactEmail></contactEmail>
+		</contactDetails>
+	</package>
+
+	<package>
+		<packageName></packageName>
+		<description></description>
+		<cost></cost>
+		<nights></nights>
+		<popularity></popularity>
+		<accommodationOptions>
+			<location></location>
+			<additionalCost></additionalCost>
+		</accommodationOptions>
+		<highlights></highlights>
+		<couponCode></couponCode>
+		<reviews></reviews>
+		<images></images>
+		<externalUrl></externalUrl>
+		<contactDetails>
+			<contactName></contactName>
+			<contactNumber></contactNumber>
+			<contactEmail></contactEmail>
+		</contactDetails>
+	</package>
+	
+	<package>
+		<packageName></packageName>
+		<description></description>
+		<cost></cost>
+		<nights></nights>
+		<popularity></popularity>
+		<accommodationOptions>
+			<location></location>
+			<additionalCost></additionalCost>
+		</accommodationOptions>
+		<highlights></highlights>
+		<couponCode></couponCode>
+		<reviews></reviews>
+		<images></images>
+		<externalUrl></externalUrl>
+		<contactDetails>
+			<contactName></contactName>
+			<contactNumber></contactNumber>
+			<contactEmail></contactEmail>
+		</contactDetails>
+	</package>
+</packages>
