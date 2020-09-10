@@ -1,0 +1,22 @@
+/*p{color:#0000FF;}*/
+
+/*
+Style of head tag
+background tag
+style of all other tags
+At least one ID
+
+at least one class attribute
+at least one .xxx selector for multiple elements with the same class
+div for something (floating alignment?)
+span for something
+
+*/
+
+body {
+	background-image: url("images/background.jpg");
+	background-position: centre;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}

@@ -4,6 +4,7 @@
 		<!ELEMENT packageName (#PCDATA)>
 		<!ELEMENT description (#PCDATA)>
 		<!ELEMENT cost (#PCDATA)>
+		<!ATTLIST cost currency CDATA "AUD">
 		<!ELEMENT nights (#PCDATA)>
 		<!ELEMENT popularity (#PCDATA)>
 		<!ELEMENT accommodationOptions (location, additionalCost)>
@@ -18,6 +19,12 @@
 			<!ELEMENT contactName (#PCDATA)>
 			<!ELEMENT contactNumber (#PCDATA)>
 			<!ELEMENT contactEmail (#PCDATA)>
+			
+		<!ENTITY p_5 "5 stars">
+		<!ENTITY p_4 "4 stars">
+		<!ENTITY p_3 "3 stars">
+		<!ENTITY p_2 "2 stars">
+		<!ENTITY p_1 "1 stars">
 ]>
 
 <packages>
@@ -26,7 +33,7 @@
 		<description></description>
 		<cost></cost>
 		<nights></nights>
-		<popularity></popularity>
+		<popularity>&p_5;</popularity>
 		<accommodationOptions>
 			<location></location>
 			<additionalCost></additionalCost>
