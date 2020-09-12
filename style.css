@@ -15,21 +15,26 @@ span for something
 
 body {
 	background-image: url("images/background.jpg");
-	background-position: centre;
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	margin: 1cm;
+	margin-top: 0.3%;
+	font-family: "times new roman", "helvetica", serif;
+	/*margin-top: 0cm;*/
+}
+
+header{
+	 margin-bottom: 8%;
 }
 
 h1 {
 	text-align: center;
-	font-family: "brush script mt", serif;
-	font-size: 4em;
+	font-family: "arial black", "impact", serif;
+	font-size: 3.5em;
 	background-color: #DDDDFF;
 	color: #000099;
 	margin-bottom: 0;
-	margin-top: 150px;
 }
 
 h2 {
@@ -43,6 +48,10 @@ h2 {
 	text-align: center;
 	border-radius: 5px;
 	margin-bottom: 0px;
+}
+
+.caps {
+	text-transform: uppercase;
 }
 
 div {
@@ -75,7 +84,7 @@ p.welcome {
 	margin-right: 25%;
 	margin-top: -5px;
 	margin-bottom: 17%;
-	
+	text-align: justify;	
 }
 
 hr {
@@ -84,24 +93,28 @@ hr {
 
 img {
 	float: left;
-	padding-right: 4%;
-	padding-top:0.5%;
+	margin-right: 4%;
 	width: 25%;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
 }
 
-span {
+h3 {
 	font-family: "Cambria", serif;
 	background-color: #000050;
 	color: #EEFFEE;
 	font-size: 20pt;
 	font-weight: bold;
+	margin-bottom: -0.5%;
 	padding: 1%;
 	padding-bottom: 0.5%;
 	padding-top: 0.5%;
 	border-radius: 5px;
+	display: inline-block;
 }
 
-address {
+#contactForm {
 	background-color: rgba(80, 0, 80, 0.3);
 	color: #EEFFEE;
 	margin-top: 0%;
@@ -109,3 +122,48 @@ address {
 	padding-bottom: 1%;
 	text-align: right;
 }
+
+a {
+	color: #EEFFEE;
+}
+
+a:visited {
+	color: #BBBBFF;
+}
+
+a:hover {
+	font-weight: bold;
+	color: #BBCCBB;
+	font-size: 1.1em;
+}
+a:active {
+	color: #DDDD00;
+}
+
+
+a.menuButton{
+	text-decoration: none;
+	color: #EEFFEE;
+	background-color: #000050;
+	padding: 1%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+a:visited.menuButton{
+	background-color: #200030;
+}
+
+a:hover.menuButton{
+	background-color: #000070;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 1.1em;
+}
+
+a:active.menuButton{
+	color: #CCDDCC;
+	background-color: #000090;
+}
+
+
