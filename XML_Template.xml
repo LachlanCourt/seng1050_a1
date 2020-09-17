@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE packages [
 <!ELEMENT packages (package*)>
 	<!ELEMENT package (packageName, description, cost, nights, popularity, accommodationOptions+, highlights+, couponCode?, reviews*, images+, externalUrl, contactDetails?)>
+		<!ATTLIST package type CDATA #REQUIRED>
 		<!ELEMENT packageName (#PCDATA)>
 		<!ELEMENT description (#PCDATA)>
 		<!ELEMENT cost (#PCDATA)>
-		<!ATTLIST cost currency CDATA "AUD">
 		<!ELEMENT nights (#PCDATA)>
 		<!ELEMENT popularity (#PCDATA)>
-		<!ELEMENT accommodationOptions (location, additionalCost)>
+		<!ELEMENT accommodationOptions (location, additionalCost?)>
 			<!ELEMENT location (#PCDATA)>
 			<!ELEMENT additionalCost (#PCDATA)>
 		<!ELEMENT highlights (#PCDATA)>
@@ -20,20 +20,20 @@
 			<!ELEMENT contactNumber (#PCDATA)>
 			<!ELEMENT contactEmail (#PCDATA)>
 			
-		<!ENTITY p_5 "5 stars">
-		<!ENTITY p_4 "4 stars">
-		<!ENTITY p_3 "3 stars">
-		<!ENTITY p_2 "2 stars">
-		<!ENTITY p_1 "1 stars">
+		<!ENTITY p5 "5 stars">
+		<!ENTITY p4 "4 stars">
+		<!ENTITY p3 "3 stars">
+		<!ENTITY p2 "2 stars">
+		<!ENTITY p1 "1 stars">
 ]>
 
 <packages>
-	<package>
+	<package type="Type 1">
 		<packageName></packageName>
 		<description></description>
 		<cost></cost>
 		<nights></nights>
-		<popularity>&p_5;</popularity>
+		<popularity></popularity>
 		<accommodationOptions>
 			<location></location>
 			<additionalCost></additionalCost>
@@ -50,7 +50,7 @@
 		</contactDetails>
 	</package>
 
-	<package>
+	<package type="Type 2">
 		<packageName></packageName>
 		<description></description>
 		<cost></cost>
@@ -72,7 +72,7 @@
 		</contactDetails>
 	</package>
 	
-	<package>
+	<package type="Type 3">
 		<packageName></packageName>
 		<description></description>
 		<cost></cost>
