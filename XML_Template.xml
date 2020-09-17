@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?><!DOCTYPE packages [
 <!ELEMENT packages (package*)>
+<!--
+**** Lachlan Court
+**** c3308061
+**** SENG1050 Assignment 1
+**** 17/09/2020
+-->
 	<!ELEMENT package (packageName, description, cost, nights, popularity, accommodationOptions+, highlights+, couponCode?, reviews*, images+, externalUrl, contactDetails?)>
 		<!ATTLIST package type CDATA #REQUIRED>
 		<!ELEMENT packageName (#PCDATA)>
